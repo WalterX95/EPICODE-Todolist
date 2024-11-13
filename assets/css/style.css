@@ -24,8 +24,9 @@ body {
     animation-iteration-count: infinite;
 }
 
-.card {
-    width: 18rem;
+.cancel {
+    margin-left: 2em;
+    border-radius: 2em;
 }
 
 @keyframes animBackground {

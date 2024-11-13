@@ -33,6 +33,7 @@ function printData() {
         list.appendChild(newLi);
         let btncanc = document.createElement('button');
         btncanc.setAttribute('type', 'button');
+        btncanc.setAttribute('class','cancel');
         btncanc.setAttribute('onclick', `deleteItem(${i})`);
         btncanc.innerText = '🗑️';
         newLi.appendChild(btncanc);
